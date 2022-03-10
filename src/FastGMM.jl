@@ -1,5 +1,6 @@
 module FastGMM
 
-# Write your package code here.
+include("GMMTypes.jl")
+include("FastGMMCuda.jl")
 
 end
